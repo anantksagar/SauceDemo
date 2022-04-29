@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="SauceDemo">
+  <test thread-count="2" name="SauceDemo">
+  <parameter name="browser" value="firefox"></parameter>
+    <classes>
+      <class name="com.qa.testLayer.HomePageTest"/>
+      <class name="com.qa.testLayer.LoginPageTest"/>
+    </classes>
+  </test> <!-- SauceDemo -->
+  <test thread-count="2" name="SauceDemo1">
+  <parameter name="browser" value="edge"></parameter>
+    <classes>
+      <class name="com.qa.testLayer.HomePageTest"/>
+      <class name="com.qa.testLayer.LoginPageTest"/>
+    </classes>
+  </test> <!-- SauceDemo -->
+</suite> <!-- SauceDemo -->
